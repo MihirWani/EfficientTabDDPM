@@ -1,0 +1,12 @@
+torch>=1.11
+numpy
+pandas
+scikit-learn
+scipy
+pyyaml
+tqdm
+joblib
+sdv  # for CTGAN/TVAE baselines later
+matplotlib
+seaborn
+imbalanced-learn
