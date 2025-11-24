@@ -16,6 +16,8 @@ def parse_args():
     p.add_argument("--ddim_steps", type=int, default=50)
     p.add_argument("--eta", type=float, default=0.0)
     p.add_argument("--embed_dim", type=int, default=8)
+    p.add_argument("--hidden_dim", type=int, default=128) # Added argument
+    p.add_argument("--num_layers", type=int, default=4) # Added argument
     p.add_argument("--device", type=str, default="cuda" if torch.cuda.is_available() else "cpu")
     return p.parse_args()
 
@@ -30,4 +32,6 @@ if __name__ == "__main__":
                       ddim_steps=args.ddim_steps,
                       eta=args.eta,
                       device=torch.device(args.device),
-                      embed_dim=args.embed_dim)
+                      embed_dim=args.embed_dim,
+                      hidden_dim=args.hidden_dim, # Pass argument
+                      num_layers=args.num_layers) # Pass argument
