@@ -1,0 +1,305 @@
+{
+  "corr_real": [
+    [
+      1.0,
+      -0.06832212922070925,
+      0.11471452608634944,
+      0.06832740973594485,
+      0.18472159230691965
+    ],
+    [
+      -0.06832212922070925,
+      1.0,
+      -0.011299468005169401,
+      -0.014437573093058613,
+      -0.01278193823156763
+    ],
+    [
+      0.11471452608634944,
+      -0.011299468005169401,
+      1.0,
+      -0.06760400405656157,
+      0.08617363869487334
+    ],
+    [
+      0.06832740973594485,
+      -0.014437573093058613,
+      -0.06760400405656157,
+      1.0,
+      0.06459410639674792
+    ],
+    [
+      0.18472159230691965,
+      -0.01278193823156763,
+      0.08617363869487334,
+      0.06459410639674792,
+      1.0
+    ]
+  ],
+  "corr_synth": [
+    [
+      1.0,
+      -0.07364612659518335,
+      0.052252762730722664,
+      -0.1596614665204202,
+      0.022290776571600012
+    ],
+    [
+      -0.07364612659518335,
+      1.0,
+      -0.02279897547277887,
+      0.03674441111078183,
+      0.14882758235016408
+    ],
+    [
+      0.052252762730722664,
+      -0.02279897547277887,
+      1.0,
+      -0.09713732486633522,
+      0.1320544915056244
+    ],
+    [
+      -0.1596614665204202,
+      0.03674441111078183,
+      -0.09713732486633522,
+      1.0,
+      -0.09146967738365525
+    ],
+    [
+      0.022290776571600012,
+      0.14882758235016408,
+      0.1320544915056244,
+      -0.09146967738365525,
+      1.0
+    ]
+  ],
+  "frobenius_diff": 0.5262986985521956,
+  "numeric_pairwise_mi": {
+    "age__fnlwgt": {
+      "mi_real": 0.029744199560391222,
+      "mi_synth": 0.8221799892313915
+    },
+    "age__capital-gain": {
+      "mi_real": 0.012306331233309962,
+      "mi_synth": 0.20084657320949967
+    },
+    "age__capital-loss": {
+      "mi_real": 0.0,
+      "mi_synth": 0.08570949542113282
+    },
+    "age__hours-per-week": {
+      "mi_real": 0.09784865443994256,
+      "mi_synth": 0.5190609145928731
+    },
+    "fnlwgt__capital-gain": {
+      "mi_real": 0.00047315151106111335,
+      "mi_synth": 0.2026384586194467
+    },
+    "fnlwgt__capital-loss": {
+      "mi_real": 0.0,
+      "mi_synth": 0.10274751585683792
+    },
+    "fnlwgt__hours-per-week": {
+      "mi_real": 0.013455084490569627,
+      "mi_synth": 0.620555191200828
+    },
+    "capital-gain__capital-loss": {
+      "mi_real": 0.0,
+      "mi_synth": 0.020884573937249656
+    },
+    "capital-gain__hours-per-week": {
+      "mi_real": 0.009362584844046751,
+      "mi_synth": 0.11230280254574193
+    },
+    "capital-loss__hours-per-week": {
+      "mi_real": 0.0,
+      "mi_synth": 0.06022459160484077
+    }
+  },
+  "numeric_categorical_mi": {
+    "age__workclass": {
+      "mi_real": 0.029658549031553072,
+      "mi_synth": 0.0
+    },
+    "age__education": {
+      "mi_real": 0.08121296978589321,
+      "mi_synth": 0.05829344380272872
+    },
+    "age__marital-status": {
+      "mi_real": 0.22337081017954752,
+      "mi_synth": 0.0
+    },
+    "age__occupation": {
+      "mi_real": 0.05299791423064448,
+      "mi_synth": 0.07227665859755472
+    },
+    "age__relationship": {
+      "mi_real": 0.19645449835835027,
+      "mi_synth": 0.06113558980661882
+    },
+    "age__race": {
+      "mi_real": 0.0,
+      "mi_synth": 0.1468432428700961
+    },
+    "age__sex": {
+      "mi_real": 0.001958811363319768,
+      "mi_synth": 0.439657587328508
+    },
+    "age__native-country": {
+      "mi_real": 0.0,
+      "mi_synth": 0.0
+    },
+    "age__education-num": {
+      "mi_real": 0.08121296978589321,
+      "mi_synth": 0.029265950536585095
+    },
+    "fnlwgt__workclass": {
+      "mi_real": 2.539509521133425,
+      "mi_synth": 0.0
+    },
+    "fnlwgt__education": {
+      "mi_real": 0.766015906124454,
+      "mi_synth": 0.0
+    },
+    "fnlwgt__marital-status": {
+      "mi_real": 1.0802438791336106,
+      "mi_synth": 0.0
+    },
+    "fnlwgt__occupation": {
+      "mi_real": 0.5338816299834903,
+      "mi_synth": 0.0
+    },
+    "fnlwgt__relationship": {
+      "mi_real": 0.8948628083872787,
+      "mi_synth": 0.0
+    },
+    "fnlwgt__race": {
+      "mi_real": 0.451858387975526,
+      "mi_synth": 0.0
+    },
+    "fnlwgt__sex": {
+      "mi_real": 1.288281491532933,
+      "mi_synth": 0.0
+    },
+    "fnlwgt__native-country": {
+      "mi_real": 0.1339361446805052,
+      "mi_synth": 0.0
+    },
+    "fnlwgt__education-num": {
+      "mi_real": 0.766015906124454,
+      "mi_synth": 0.0
+    },
+    "capital-gain__workclass": {
+      "mi_real": 0.06884487048068921,
+      "mi_synth": 0.0
+    },
+    "capital-gain__education": {
+      "mi_real": 0.019168069423258327,
+      "mi_synth": 0.06506039488789983
+    },
+    "capital-gain__marital-status": {
+      "mi_real": 0.07375110566864529,
+      "mi_synth": 0.03241878210344318
+    },
+    "capital-gain__occupation": {
+      "mi_real": 0.011794615354990157,
+      "mi_synth": 0.0
+    },
+    "capital-gain__relationship": {
+      "mi_real": 0.09837395494167778,
+      "mi_synth": 0.0
+    },
+    "capital-gain__race": {
+      "mi_real": 0.003505239541398586,
+      "mi_synth": 0.0033843741048220632
+    },
+    "capital-gain__sex": {
+      "mi_real": 0.03030697689233497,
+      "mi_synth": 0.0
+    },
+    "capital-gain__native-country": {
+      "mi_real": 0.004797470164834339,
+      "mi_synth": 0.010193847472937279
+    },
+    "capital-gain__education-num": {
+      "mi_real": 0.019168069423258327,
+      "mi_synth": 0.005350147970190955
+    },
+    "capital-loss__workclass": {
+      "mi_real": 0.039957125791014514,
+      "mi_synth": 0.0
+    },
+    "capital-loss__education": {
+      "mi_real": 0.011819423358800485,
+      "mi_synth": 0.011156337572769237
+    },
+    "capital-loss__marital-status": {
+      "mi_real": 0.04479371339306093,
+      "mi_synth": 0.0
+    },
+    "capital-loss__occupation": {
+      "mi_real": 0.010824292733808027,
+      "mi_synth": 0.0
+    },
+    "capital-loss__relationship": {
+      "mi_real": 0.045929473627672746,
+      "mi_synth": 0.05782863968412544
+    },
+    "capital-loss__race": {
+      "mi_real": 0.0021027614294109043,
+      "mi_synth": 0.0
+    },
+    "capital-loss__sex": {
+      "mi_real": 0.012689158148346369,
+      "mi_synth": 0.06434633055935812
+    },
+    "capital-loss__native-country": {
+      "mi_real": 0.0028753784437518526,
+      "mi_synth": 0.0
+    },
+    "capital-loss__education-num": {
+      "mi_real": 0.011819423358800485,
+      "mi_synth": 0.002524645025284822
+    },
+    "hours-per-week__workclass": {
+      "mi_real": 0.06803769558531059,
+      "mi_synth": 0.026291624830331983
+    },
+    "hours-per-week__education": {
+      "mi_real": 0.03533329138906938,
+      "mi_synth": 0.0
+    },
+    "hours-per-week__marital-status": {
+      "mi_real": 0.05064038464328435,
+      "mi_synth": 0.001163417391611521
+    },
+    "hours-per-week__occupation": {
+      "mi_real": 0.09554317484468333,
+      "mi_synth": 0.0
+    },
+    "hours-per-week__relationship": {
+      "mi_real": 0.0930312851793551,
+      "mi_synth": 0.0
+    },
+    "hours-per-week__race": {
+      "mi_real": 0.0054169859377593,
+      "mi_synth": 0.09208931906568019
+    },
+    "hours-per-week__sex": {
+      "mi_real": 0.05807134311959938,
+      "mi_synth": 0.26167191025659786
+    },
+    "hours-per-week__native-country": {
+      "mi_real": 0.007610746673802016,
+      "mi_synth": 0.01718035149824315
+    },
+    "hours-per-week__education-num": {
+      "mi_real": 0.03533329138906938,
+      "mi_synth": 0.0
+    }
+  },
+  "mean_nn_dist": 256475.68293234252,
+  "p50_nn": 195323.1810761455,
+  "p90_nn": 474804.1015703867,
+  "coverage_fraction": 0.0
+}
